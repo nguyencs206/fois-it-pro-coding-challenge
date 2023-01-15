@@ -1,0 +1,30 @@
+{
+    "name": "nguyencs/fois-it-coding-challenge",
+    "type": "sample-code",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nguyencs\\FITCodingChallenge\\": "src/",
+            "Nguyencs\\FITCodingChallenge\\Tests\\": "tests/"
+        },
+        "files": [
+            "src/solution.php"
+        ]
+    },
+    "config": {
+        "platform": {
+            "php": "7.4"
+        }
+    },
+    "scripts": {
+        "test": "./vendor/phpunit/phpunit/phpunit --configuration ./phpunit.xml"
+    },
+    "authors": [
+        {
+            "name": "Nguyen Chau"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
